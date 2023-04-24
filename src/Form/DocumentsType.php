@@ -18,6 +18,7 @@ class DocumentsType extends AbstractType
             ->add('description', TextareaType::class)
             ->add('document', FileType::class)
             ->add('docname')
+            ->add('personals')
         ;
     }
 
