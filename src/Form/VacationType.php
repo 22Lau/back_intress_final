@@ -13,6 +13,7 @@ class VacationType extends AbstractType
     {
         $builder
             ->add('personal')
+            ->add('signin')
             ->add('holidays')
         ;
     }
